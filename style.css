@@ -112,5 +112,14 @@ footer {
   font-family: "Karla", sans-serif;
   font-size: 16px;
 }
+footer p.attribution {
+  display: flex;
+  justify-content: center;
+}
+footer p.attribution a {
+  text-decoration: none;
+  color: #2ab2af;
+  padding-left: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
