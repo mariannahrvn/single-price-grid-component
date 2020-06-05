@@ -111,10 +111,15 @@ body {
 footer {
   font-family: "Karla", sans-serif;
   font-size: 16px;
-}
-footer p.attribution {
+  width: 700px;
   display: flex;
+  margin: 80px auto;
   justify-content: center;
+}
+@media (max-width: 375px) {
+  footer {
+    width: 100%;
+  }
 }
 footer p.attribution a {
   text-decoration: none;
